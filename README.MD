@@ -61,40 +61,40 @@ Response should be something like below:
 
 <h3>Common</h3>
 
-<b>IDConverter.java</b> <br />
-A Singleton class responsible for: <br />
-1. Generating ID <br />
-2. Using ID to create unique URL ID <br />
-3. Using unique URL ID to retrieve original ID <br />
-<br /> <br />
-<b> URLValidator.java</b> <br />
+<b>IDConverter.java</b> <br/>
+A Singleton class responsible for: <br/>
+1. Generating ID <br/>
+2. Using ID to create unique URL ID <br/>
+3. Using unique URL ID to retrieve original ID <br/>
+<br/> <br/>
+<b>URLValidator.java</b><br/>
 A Singleton class responsible for validating URL's validity
 
 <h3>Controller</h3>
-<b>URLController.java</b> <br />
+<b>URLController.java</b> <br/>
 A Spring Boot Controller responsible for: <br/>
-1. Serving an endpoint to shorten URL <br />
-2. Redirect shortened URL to the original URL <br />
+1. Serving an endpoint to shorten URL <br/>
+2. Redirect shortened URL to the original URL <br/>
 
 <h2>Repsitory</h3>
-<b>URLRepository</b> <br />
+<b>URLRepository</b> <br/>
 A Java class responsible for abstracting Redis(database) read/write logic
 
 <h2>Service</h3>
-<b>URLConverterService.java</b> <br />
+<b>URLConverterService.java</b> <br/>
 A Java class used to abstract URL Shortening and URL Retrieval process
 <br />
-<b>URLShortenerApplication.java</b> <br />
+<b>URLShortenerApplication.java</b> <br/>
 The entry point for the Spring application
-<br /> <br />
+<br/> <br/>
 
 
 
 ## To-Dos
 
-## Dockerizing both redis and spring in single container
-## Provide UI for seeing existing urls and shortened URLs in Redis
-## Debug cases when https URLs are being broken at times
+# Dockerizing both redis and spring in single container
+# Provide UI for seeing existing urls and shortened URLs in Redis
+# Debug cases when https URLs are being broken at times
 
 
 
