@@ -5,8 +5,10 @@ services:
     ports:
      - "8080:8080"
     links:
-     - redis
+     - redis:redis
   redis:
     image: redis
+    command: [ "redis-server", "--protected-mode", "no" ]
     ports:
       - "6379:6379"
+    

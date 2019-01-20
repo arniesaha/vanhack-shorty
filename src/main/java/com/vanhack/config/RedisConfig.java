@@ -1,10 +1,8 @@
 package com.vanhack.config;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.listener.ChannelTopic;
@@ -21,11 +19,10 @@ public class RedisConfig {
 
     @Bean
     JedisConnectionFactory jedisConnectionFactory() {
-    	JedisConnectionFactory factory = new JedisConnectionFactory();
-	    factory.setHostName("redis");
-	    factory.setPort(6379);
-	    factory.setUsePool(true);
-	    return factory;
+        JedisConnectionFactory factory = new JedisConnectionFactory();
+        factory.setHostName("redis");
+        factory.setPort(6379);
+        return factory;
     }
 
     @Bean
@@ -35,7 +32,6 @@ public class RedisConfig {
         template.setValueSerializer(new GenericToStringSerializer<Object>(Object.class));
         return template;
     }
-    
 
     @Bean
     MessageListenerAdapter messageListener() {
