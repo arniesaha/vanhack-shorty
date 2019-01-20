@@ -1,7 +1,7 @@
 # shorty
 Shorty - A URL-shortener web application built on Spring Boot + Redis (For peristant storage).
 
-Setup Docker:
+Setup Maven:
 Mac:
 ```sh
 $ brew install maven
@@ -33,7 +33,7 @@ $ mvn spring-boot:run
 
 or
 
-$ sudo nohup mvn sprint-boot:run (To run in background after command line exit)
+$ sudo nohup mvn sprint-boot:run & (To run in background after command line exit)
 ```
 
 To test, send POST Request to localhost:8080/shortener with a body of type application/json with body 
