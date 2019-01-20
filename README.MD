@@ -65,8 +65,8 @@ Response should be something like below:
 A Singleton class responsible for: <br/>
 1. Generating ID <br/>
 2. Using ID to create unique URL ID <br/>
-3. Using unique URL ID to retrieve original ID <br/>
-<br/> <br/>
+3. Using unique URL ID to retrieve original ID<br/>
+
 <b>URLValidator.java</b><br/>
 A Singleton class responsible for validating URL's validity
 
@@ -83,18 +83,18 @@ A Java class responsible for abstracting Redis(database) read/write logic
 <h2>Service</h3>
 <b>URLConverterService.java</b> <br/>
 A Java class used to abstract URL Shortening and URL Retrieval process
-<br />
+<br/>
 <b>URLShortenerApplication.java</b> <br/>
 The entry point for the Spring application
-<br/> <br/>
+<br/><br/>
 
 
 
 ## To-Dos
 
-# Dockerizing both redis and spring in single container
-# Provide UI for seeing existing urls and shortened URLs in Redis
-# Debug cases when https URLs are being broken at times
+- Dockerizing both redis and spring in single container
+- Provide UI for seeing existing urls and shortened URLs in Redis
+- Debug cases when https URLs are being broken at times
 
 
 
