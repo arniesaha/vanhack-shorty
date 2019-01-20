@@ -43,7 +43,7 @@ Also,
 a live version of the app is deployed at 
 
 ```
-34.216.124.29:8080/shortener
+http://34.216.124.29:8080/shortener
 ```
 
 ```
@@ -55,6 +55,8 @@ a live version of the app is deployed at
 Also attached is an Insomina REST Client workspace. 
 
 Response should be something like below:
+
+<img src = "https://raw.githubusercontent.com/arniesaha/vanhack-shorty/master/img/shorty-insomnia.png?sanitize=true&raw=true" />
 
 
 ## Components

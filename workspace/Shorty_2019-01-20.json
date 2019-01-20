@@ -1,0 +1,70 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2019-01-20T12:36:51.584Z",
+	"__export_source": "insomnia.desktop.app:v6.3.1",
+	"resources": [
+		{
+			"_id": "wrk_0d4ff1472ddd453f88f968adc65514b3",
+			"created": 1547919382669,
+			"description": "",
+			"modified": 1547919382669,
+			"name": "Shorty",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_519a6bf369f5450c93455afe5a035409",
+			"color": null,
+			"created": 1547919382755,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1547919382755,
+			"modified": 1547919382755,
+			"name": "New Environment",
+			"parentId": "wrk_0d4ff1472ddd453f88f968adc65514b3",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_4578cb1f70fc416f82428ea02d269410",
+			"cookies": [],
+			"created": 1547919382759,
+			"modified": 1547919382759,
+			"name": "Default Jar",
+			"parentId": "wrk_0d4ff1472ddd453f88f968adc65514b3",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_e8307a00a7304c568ed7a8263c56e92c",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"url\" : \"stackoverflow.com/questions/43887033/error-running-spring-boot-application-from-command-line?rq=1\"\n}"
+			},
+			"created": 1547919398537,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_7b47d9ad12494ea98b4dbbd2f137abf5",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1547919398537,
+			"method": "POST",
+			"modified": 1547987196643,
+			"name": "shorten",
+			"parameters": [],
+			"parentId": "wrk_0d4ff1472ddd453f88f968adc65514b3",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "34.216.124.29:8080/shortener",
+			"_type": "request"
+		}
+	]
+}
