@@ -1,4 +1,4 @@
-package com.michaelcgood.queue;
+package com.vanhack.queue;
 
 public interface MessagePublisher {
 

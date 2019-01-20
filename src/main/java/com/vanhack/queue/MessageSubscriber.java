@@ -1,4 +1,4 @@
-package com.michaelcgood.queue;
+package com.vanhack.queue;
 
 import java.util.ArrayList;
 import java.util.List;

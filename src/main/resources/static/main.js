@@ -60,7 +60,7 @@ function row(key, value) {
  * Clear and reload the values in data table.
  */
 function refreshTable() {
-    $.get('/values', function(data) {
+    $.get('/findAllUrls', function(data) {
         var attr,
             mainTable = $('#mainTable tbody');
         mainTable.empty();
