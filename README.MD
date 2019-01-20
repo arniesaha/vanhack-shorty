@@ -42,9 +42,9 @@ Also,
 
 a live version of the app is deployed at 
 
-```
+
 http://34.216.124.29:8080/shortener
-```
+
 
 ```
 {
