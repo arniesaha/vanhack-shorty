@@ -94,6 +94,7 @@ The entry point for the Spring application
 
 ## To-Dos
 
+- Implement Stats APIs
 - Dockerizing both redis and spring in single container
 - Provide UI for seeing existing urls and shortened URLs in Redis
 - Debug cases when https URLs are being broken at times
